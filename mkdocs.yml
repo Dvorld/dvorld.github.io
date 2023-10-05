@@ -33,11 +33,11 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: 
+      link: https://github.com/
     - icon: fontawesome/brands/twitter
-      link: 
+      link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
-      link: 
+      link: https://www.linkedin.com/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -57,4 +57,4 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2023 <a href=""  target="_blank" rel="noopener">V</a>
+  &copy; 2023 <a href="https://dvorld.github.io"  target="_blank" rel="noopener">DVorld</a>

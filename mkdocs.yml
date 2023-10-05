@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
-site_name: VD docs
-site_url: 
-=======
 site_name: DV Docs
-site_url: https://dvorld.github.io
->>>>>>> Stashed changes
 theme:
   name: material
   features:
@@ -30,40 +24,5 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
-<<<<<<< Updated upstream
       accent: lime
 
-plugins:
-  - social
-
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/
-
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
-copyright: |
-  &copy; 2023 <a href="https://dvorld.github.io"  target="_blank" rel="noopener">DVorld</a>
-=======
-      accent: lime
->>>>>>> Stashed changes

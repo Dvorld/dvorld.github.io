@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 site_name: VD docs
 site_url: 
+=======
+site_name: DV Docs
+site_url: https://dvorld.github.io
+>>>>>>> Stashed changes
 theme:
   name: material
   features:
@@ -25,6 +30,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
+<<<<<<< Updated upstream
       accent: lime
 
 plugins:
@@ -58,3 +64,6 @@ markdown_extensions:
 
 copyright: |
   &copy; 2023 <a href="https://dvorld.github.io"  target="_blank" rel="noopener">DVorld</a>
+=======
+      accent: lime
+>>>>>>> Stashed changes

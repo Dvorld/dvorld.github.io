@@ -1,5 +1,4 @@
 site_name: V docs
-
 site_url: 
 theme:
   name: material
@@ -28,3 +27,34 @@ theme:
       primary: teal
       accent: lime
 
+plugins:
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 
+    - icon: fontawesome/brands/twitter
+      link: 
+    - icon: fontawesome/brands/linkedin
+      link: 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href=""  target="_blank" rel="noopener">V</a>

@@ -28,15 +28,8 @@ theme:
       primary: teal
       accent: lime
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/
-
+extra:  
+    generator: false
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

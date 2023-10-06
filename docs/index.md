@@ -64,7 +64,7 @@ GRUB_RECORDFAIL_TIMEOUT=0
 ```
 
 ______________________________________________
-### change login screen to extended  monitor
+### Change login screen to extended  monitor
 ```
 sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml
 ```
@@ -135,7 +135,8 @@ to restart the service
 
 
 
-### Refer more:
+***Refer more:***
+
 https://linux.how2shout.com/install-samba-on-linux-mint-to-share-files-with-windows/
 
 ___________________________________________

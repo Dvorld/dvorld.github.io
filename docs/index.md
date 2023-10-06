@@ -108,14 +108,16 @@ sudo smbpasswd -a username (any)
 `sudo nano /etc/samba/smb.conf`
 
 
-[Amazon]
-path = /mnt/Amazon/
+```
+[share name]
+path = /mnt/drive/
 writeable=Yes
 create mask=0777
 directory mask=0777
 public=no
 browseable = no
 valid users = @user @new_user
+```
 
 
 

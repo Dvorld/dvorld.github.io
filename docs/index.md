@@ -23,43 +23,28 @@ Then restart
 
 _____________________________________________________
 
+### Boot directly to tty1 in ubuntu.
 
 
-#### Tip 2 sample 
+ `sudo nano /etc/default/grub`
+ 
+ and change it to ...
 
-Sample text here 
+GRUB_CMDLINE_LINUX_DEFAULT="text"
 
------------------------------------------------
+and update grub with ...
 
-#### Tip 3 sample 
+`sudo update-grub`
 
-================================================
+Tell systemd to not load the desktop with ...
 
-## Icons and Emoji
-:smile: 
+`sudo systemctl enable multi-user.target --force`
 
-:fontawesome-regular-face-laugh-wink:
+   `sudo systemctl set-default multi-user.target`
 
-:fontawesome-brands-twitter:{ .twitter }
 
-:octicons-heart-fill-24:{ .heart }
+And the initial boot will end up on a tty. By default it will be tty1. You can still go to the desktop by using the command startx on commandline.
 
-#### With a title
+We can switch to the graphical desktop using ctrl +alt+f7 in case I need it.
 
-``` py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Highlighting lines
-
-``` py hl_lines="2 3"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
+Issue the sudo systemctl start lightdm command before using control+alt+f7. Probably impossible to get around that: if a desktop is loaded during boot it will take precedence.

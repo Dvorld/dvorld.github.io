@@ -2,6 +2,7 @@ site_name: DV Docs
 site_url: https://dvorld.github.io/
 theme:
   name: material
+  logo: ./assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.sections

@@ -1,10 +1,30 @@
-# First page
+# Linux 
+
+### To avoid entering sleep or suspend mode when the lid closed
+
+To disable entering the sleep mode edit the 
+```/etc/systemd/logind.conf```  file and modify the line:
+
+```HandleLidSwitch=suspend```
+
+to
+
+```HandleLidSwitch=ignore```
+
+Additionally, ensure that the file also has this line:
+
+LidSwitchIgnoreInhibited=no
+
+Then restart the OS via:
+
+sudo service systemd-logind restart
 
 
 
-## Code Annotation Examples
+_____________________________________________________
 
-### Codeblocks
+
+
 
 Some `code` goes here.
 

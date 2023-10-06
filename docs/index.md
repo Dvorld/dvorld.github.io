@@ -2,7 +2,7 @@
 
 ### To avoid entering sleep or suspend mode when the lid closed
 
-To disable entering the sleep mode edit the 
+To disable entering the sleep mode edit.
 ```sudo nano /etc/systemd/logind.conf```  file and modify the line:
 
 ```HandleLidSwitch=suspend```

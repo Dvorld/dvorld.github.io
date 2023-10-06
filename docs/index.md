@@ -64,3 +64,76 @@ GRUB_RECORDFAIL_TIMEOUT=0
 ```
 
 ______________________________________________
+### change login screen to extended  monitor
+```
+sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml
+```
+
+```
+sudo chown gdm:gdm ~gdm/.config/monitors.xml
+```
+____________________________________________
+
+### Samba in Ubuntu
+
+
+
+
+`sudo apt-get install samba samba-common-bin`
+
+
+after restarting server autostart
+
+`sudo systemctl enable smbd`
+
+
+`sudo systemctl --enable now smbd`
+
+
+
+to add user to system or to group add users first
+
+sudo adduser username (any)
+
+to add user to samba share group add different users 
+
+sudo usermod -aG sambashare $USER
+
+
+to setup user account
+
+sudo smbpasswd -a username (any)
+
+
+`sudo nano /etc/samba/smb.conf`
+
+
+[Amazon]
+path = /mnt/Amazon/
+writeable=Yes
+create mask=0777
+directory mask=0777
+public=no
+browseable = no
+valid users = @user @new_user
+
+
+
+to update firewall rules
+
+`sudo ufw allow samba`
+
+
+
+to restart the service
+
+`sudo systemctl restart smbd.service nmbd.service`
+
+`sudo smbcontrol smbd reload-config`
+
+
+
+### Refer more:
+https://linux.how2shout.com/install-samba-on-linux-mint-to-share-files-with-windows/
+
+___________________________________________

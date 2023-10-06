@@ -25,3 +25,21 @@ _____________________________________________________
 
 
 
+#### Tip 2 sample 
+
+Sample text here 
+
+-----------------------------------------------
+
+#### Tip 3 sample 
+
+================================================
+
+## Icons and Emoji
+:smile: 
+
+:fontawesome-regular-face-laugh-wink:
+
+:fontawesome-brands-twitter:{ .twitter }
+
+:octicons-heart-fill-24:{ .heart }

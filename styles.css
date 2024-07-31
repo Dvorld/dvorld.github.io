@@ -1,0 +1,237 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, font-family 0.3s, font-size 0.3s;
+}
+
+/* Light theme (default) */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Other themes */
+body.blue-theme {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+body.green-theme {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+
+body.red-theme {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Top navigation bar */
+.top-nav {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 5px 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+}
+
+.top-nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .logo img.logo-img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.top-nav h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.top-nav-links {
+    margin-left: auto;
+}
+
+.top-nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.top-nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Settings dropdowns */
+.settings {
+    margin-left: 30px;
+}
+
+#themeToggle, #fontSelector, #fontSizeSelector {
+    margin-left: 23px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 230px;
+    background-color: #dbdbdb;
+    padding: 20px;
+    position: fixed;
+    top: 45px; /* Adjust for top-nav height */
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    z-index: 1000;
+}
+
+.sidebar.hidden {
+    transform: translateX(-250px);
+}
+
+/* Search bar styles */
+#searchBox {
+    width: 100%;
+    padding: 10px 1px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#searchBox:focus {
+    border-color: #333;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+#searchBox:hover {
+    border-color: #999;
+}
+
+/* Sidebar links styles */
+#navList {
+    list-style: none;
+    padding: 0;
+}
+
+#navList > li {
+    position: relative;
+}
+
+#navList > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#navList > li > a:hover {
+    background-color: #ddd;
+}
+
+/* Nested list styles */
+.nested {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: none;
+}
+
+.nested li a {
+    padding: 8px 10px;
+    font-weight: normal;
+}
+
+.nested li a:hover {
+    background-color: #eee;
+}
+
+#navList > li:hover .nested {
+    display: block;
+}
+
+/* Content area */
+.content {
+    margin-left: 290px; /* Ensure this matches the width of the sidebar */
+    padding: 40px ;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar.hidden ~ .content {
+    margin-left: 0;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h1 {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .top-nav {
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        top: 60px;
+        transform: translateX(0);
+    }
+
+    .sidebar.hidden {
+        transform: translateX(-100%);
+    }
+
+    .sidebar-toggle {
+        display: block;
+        background: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 1.2em;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 1001;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+}

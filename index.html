@@ -1,1 +1,149 @@
-new file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <header class="top-nav">
+        <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo-img">
+            <h1>Documentation</h1>
+        </div>
+        <nav class="top-nav-links">
+            <a href="#section1">Introduction</a>
+            <a href="#section2">Getting Started</a>
+            <a href="#section3">Usage</a>
+            <a href="#section4">FAQ</a>
+            <a href="#section5">Contact</a>
+        </nav>
+        <div class="settings">
+            <button id="themeToggle">Switch Theme</button>
+            <select id="fontSelector">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="'Courier New', monospace">Courier New</option>
+                <option value="'Georgia', serif">Georgia</option>
+                <option value="'Times New Roman', serif">Times New Roman</option>
+                <option value="'Verdana', sans-serif">Verdana</option>
+            </select>
+            <select id="fontSizeSelector">
+                <option value="16px">16px</option>
+                <option value="18px">18px</option>
+                <option value="20px">20px</option>
+                <option value="22px">22px</option>
+                <option value="24px">24px</option>
+            </select>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <input type="text" id="searchBox" placeholder="Search...">
+            <nav>
+                <ul id="navList">
+                    <li>
+                        <a href="#section1">Introduction</a>
+                        <ul class="nested">
+                            <li><a href="#section1.1">Overview</a></li>
+                            <li><a href="#section1.2">Features</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#section2">Getting Started</a>
+                        <ul class="nested">
+                            <li><a href="#section2.1">Installation</a></li>
+                            <li><a href="#section2.2">Configuration</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#section3">Usage</a>
+                        <ul class="nested">
+                            <li><a href="#section3.1">Basic Usage</a></li>
+                            <li><a href="#section3.2">Advanced Tips</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#section4">FAQ</a>
+                        <ul class="nested">
+                            <li><a href="#section4.1">Common Questions</a></li>
+                            <li><a href="#section4.2">Troubleshooting</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#section5">Contact</a>
+                        <ul class="nested">
+                            <li><a href="#section5.1">Support</a></li>
+                            <li><a href="#section5.2">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content" id="content">
+            <section id="section1">
+                <h1>Introduction</h1>
+                <p>Welcome to the documentation. This section introduces the main features and purpose of the application.</p>
+            </section>
+            <section id="section1.1">
+                <h2>Overview</h2>
+                <p>Overview details about Introduction.</p>
+            </section>
+            <section id="section1.2">
+                <h2>Features</h2>
+                <p>Features details about Introduction.</p>
+            </section>
+            <section id="section2">
+                <h1>Getting Started</h1>
+                <p>This section will help you get started with the application. Follow these steps to set it up.</p>
+            </section>
+            <section id="section2.1">
+                <h2>Installation</h2>
+                <p>Installation details about Getting Started.</p>
+            </section>
+            <section id="section2.2">
+                <h2>Configuration</h2>
+                <p>Configuration details about Getting Started.</p>
+            </section>
+            <section id="section3">
+                <h1>Usage</h1>
+                <p>Learn how to use the features of the application effectively. This section includes examples and best practices.</p>
+            </section>
+            <section id="section3.1">
+                <h2>Basic Usage</h2>
+                <p>Basic usage details about Usage.</p>
+            </section>
+            <section id="section3.2">
+                <h2>Advanced Tips</h2>
+                <p>Advanced tips about Usage.</p>
+            </section>
+            <section id="section4">
+                <h1>FAQ</h1>
+                <p>Find answers to common questions about the application. This section addresses common issues and troubleshooting tips.</p>
+            </section>
+            <section id="section4.1">
+                <h2>Common Questions</h2>
+                <p>Common Questions details about FAQ.</p>
+            </section>
+            <section id="section4.2">
+                <h2>Troubleshooting</h2>
+                <p>Troubleshooting details about FAQ.</p>
+            </section>
+            <section id="section5">
+                <h1>Contact</h1>
+                <p>If you need further assistance, please contact us. This section provides contact information and support resources.</p>
+            </section>
+            <section id="section5.1">
+                <h2>Support</h2>
+                <p>Support details about Contact.</p>
+            </section>
+            <section id="section5.2">
+                <h2>Feedback</h2>
+                <p>Feedback details about Contact.</p>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

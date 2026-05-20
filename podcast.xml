@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0"
+ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+
+<title>English Tamil Podcast</title>
+<link>https://dvorld.github.io/podcast.html</link>
+<language>en-us</language>
+<description>English-Tamil podcast episodes</description>
+<itunes:author>Your Name</itunes:author>
+
+<itunes:image href="https://archive.org/download/podcast-englishtamil/__ia_thumb.jpg"/>
+
+<!-- EPISODE 1 -->
+<item>
+<title>You can run but you can't hide</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/Youcanrunbutyoucanthide.mp3" type="audio/mpeg"/>
+<guid>Youcanrunbutyoucanthide</guid>
+</item>
+
+<!-- EPISODE 2 -->
+<item>
+<title>A critical conversation Part 2</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/AcriticalconversationPart2.mp3" type="audio/mpeg"/>
+<guid>AcriticalconversationPart2</guid>
+</item>
+
+<!-- EPISODE 3 -->
+<item>
+<title>Deepavali For once I miss home</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/DeepavaliForonceImisshome.mp3" type="audio/mpeg"/>
+<guid>DeepavaliForonceImisshome</guid>
+</item>
+
+<!-- EPISODE 4 -->
+<item>
+<title>Foolishly prudishly in love</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/Foolishlyprudishlyinlove.mp3" type="audio/mpeg"/>
+<guid>Foolishlyprudishlyinlove</guid>
+</item>
+
+<!-- EPISODE 5 -->
+<item>
+<title>Movies and Piracy Part 1</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/MoviesandPiracyPart1_0.mp3" type="audio/mpeg"/>
+<guid>MoviesandPiracyPart1</guid>
+</item>
+
+<!-- EPISODE 6 -->
+<item>
+<title>Movies and Piracy Part 2</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/MoviesandPiracyPart2_0.mp3" type="audio/mpeg"/>
+<guid>MoviesandPiracyPart2</guid>
+</item>
+
+<!-- EPISODE 7 -->
+<item>
+<title>Old thing new word condescension</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/Oldthingnewwordcondescension.mp3" type="audio/mpeg"/>
+<guid>Oldthingnewwordcondescension</guid>
+</item>
+
+<!-- EPISODE 8 -->
+<item>
+<title>Ostracized solitude in Tamil movies</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/OstracizedsolitudeinTamilmovies.mp3" type="audio/mpeg"/>
+<guid>OstracizedsolitudeinTamilmovies</guid>
+</item>
+
+<!-- EPISODE 9 -->
+<item>
+<title>Roast of Kamal Haasan and Dasavatharam</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/RoastofKamalHaasanandDasavatharam1.mp3" type="audio/mpeg"/>
+<guid>RoastofKamalHaasanandDasavatharam1</guid>
+</item>
+
+<!-- EPISODE 10 -->
+<item>
+<title>Roast of Pokkiri</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/RoastofPokkiri.mp3" type="audio/mpeg"/>
+<guid>RoastofPokkiri</guid>
+</item>
+
+<!-- EPISODE 11 -->
+<item>
+<title>Roast of Sivaji</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/RoastofSivaji.mp3" type="audio/mpeg"/>
+<guid>RoastofSivaji</guid>
+</item>
+
+<!-- EPISODE 12 -->
+<item>
+<title>Tamil Media</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/TamilMedia.mp3" type="audio/mpeg"/>
+<guid>TamilMedia</guid>
+</item>
+
+<!-- EPISODE 13 -->
+<item>
+<title>Tamil Politics MGR Hogenakkal etc</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/TamilpoliticsMGRHogenakkaletc.mp3" type="audio/mpeg"/>
+<guid>TamilpoliticsMGRHogenakkaletc</guid>
+</item>
+
+<!-- EPISODE 14 -->
+<item>
+<title>The train and I boy meets train Part 1</title>
+<enclosure url="https://archive.org/download/podcast-englishtamil/ThetrainandIboymeetstrainPart1.mp3" type="audio/mpeg"/>
+<guid>ThetrainandIboymeetstrainPart1</guid>
+</item>
+
+</channel>
+</rss>

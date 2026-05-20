@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+
+<title>English Tamil Podcast</title>
+<link>https://user.github.io/podcast.html</link>
+<language>en-us</language>
+<description>
+English-Tamil podcast episodes
+</description>
+<itunes:author>dvorld</itunes:author>
+<managingEditor>dvorld</managingEditor>
+<itunes:category text="Society &amp; Culture"/>
+<itunes:category text="Talk"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<copyright>2026 dvorld</copyright>
+<itunes:image href="https://archive.org/download/podcast-englishtamil/cover.jpg"/>
+
+<!-- Episodes with Anchor.fm links -->
+<item>
+<title>You can run but you can't hide</title>
+<description>You can run but you can't hide</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120260457/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-20%2Ff4624813-51c6-3c8e-4a76-b8e1e4220ca1.mp3" type="audio/mpeg"/>
+<guid>Youcanrunbutyoucanthide.mp3</guid>
+</item>
+
+<item>
+<title>The train and I boy meets train Part 1</title>
+<description>The train and I boy meets train Part 1</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231287/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F8ce3d7ac-9cf8-d820-d423-e4bc16dc055c.mp3" type="audio/mpeg"/>
+<guid>ThetrainandIboymeetstrainPart1.mp3</guid>
+</item>
+
+<item>
+<title>Tamil Media</title>
+<description>Tamil Media</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F66eb6299-d58f-3844-585b-d4372cc927d5.mp3" type="audio/mpeg"/>
+<guid>TamilMedia.mp3</guid>
+</item>
+
+<item>
+<title>Roast of Kamal Haasan and Dasavatharam</title>
+<description>Roast of Kamal Haasan and Dasavatharam</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F8a227429-1762-7366-df25-f5aa44dcd3c9.mp3" type="audio/mpeg"/>
+<guid>RoastofKamalHaasanandDasavatharam1.mp3</guid>
+</item>
+
+<item>
+<title>Ostracized solitude in Tamil movies</title>
+<description>Ostracized solitude in Tamil movies</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231116/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fafedffb3-0cf3-59f8-309f-9f88fe9686a9.mp3" type="audio/mpeg"/>
+<guid>Ostracized_solitude_inTamilmovies.mp3</guid>
+</item>
+
+<item>
+<title>Old thing new word condescension</title>
+<description>Old thing new word condescension</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231074/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F498b11d2-97d3-fdeb-2bc6-c20e377665ac.mp3" type="audio/mpeg"/>
+<guid>Old_thing_new_word_condescension.mp3</guid>
+</item>
+
+<item>
+<title>Movies and Piracy Part 2</title>
+<description>Movies and Piracy Part 2</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231038/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F1a371da6-0b18-7e9f-7c71-a6ecb91d421f.mp3" type="audio/mpeg"/>
+<guid>MoviesandPiracyPart2_0.mp3</guid>
+</item>
+
+<item>
+<title>Movies and Piracy Part 1</title>
+<description>Movies and Piracy Part 1</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120231002/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F0796ce06-1aa6-c866-c5cf-d9bf36adf8b1.mp3" type="audio/mpeg"/>
+<guid>MoviesandPiracyPart1_0.mp3</guid>
+</item>
+
+<item>
+<title>Foolishly prudishly in love</title>
+<description>Foolishly prudishly in love</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120230977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F37d646fd-98de-52b3-fb11-86af726c7a07.mp3" type="audio/mpeg"/>
+<guid>Foolishlyprudishlyinlove.mp3</guid>
+</item>
+
+<item>
+<title>Deepavali For once I miss home</title>
+<description>Deepavali For once I miss home</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120226193/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fc67617b9-41ea-3952-8719-3545fafd5243.mp3" type="audio/mpeg"/>
+<guid>DeepavaliForonceImisshome.mp3</guid>
+</item>
+
+<item>
+<title>The train and boy meets train Part 1</title>
+<description>The train and boy meets train Part 1</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120226123/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2F532f67b8-11d0-8f0c-d4c7-f1fda8fb8129.mp3" type="audio/mpeg"/>
+<guid>The_train_and_boy_meets_train_Part1.mp3</guid>
+</item>
+
+<item>
+<title>A critical conversation Part 2</title>
+<description>A critical conversation Part 2</description>
+<enclosure url="https://anchor.fm/s/1127aeff0/podcast/play/120225031/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fe484a798-380d-7b15-cd0b-ddc6d161f800.mp3" type="audio/mpeg"/>
+<guid>AcriticalconversationPart2.mp3</guid>
+</item>
+
+</channel>
+</rss>

@@ -9,7 +9,10 @@
 <link>https://dvorld.github.io/podcast.html</link>
 <language>en-us</language>
 <description>English-Tamil podcast episodes</description>
-<itunes:author>Your Name</itunes:author>
+<itunes:author>dvorld</itunes:author>
+<managingEditor>dvorld 2</managingEditor>
+<itunes:category text="talk" />
+<itunes:category text="Society &amp; Culture" />
 
 <itunes:image href="https://archive.org/download/podcast-englishtamil/__ia_thumb.jpg"/>
 

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Data Visualizer</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #181818;
+            --spotify-green: #1DB954;
+            --text-color: #FFFFFF;
+            --text-muted: #B3B3B3;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--spotify-green);
+            margin-bottom: 10px;
+        }
+
+        .url-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #333;
+            background-color: #282828;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: var(--spotify-green);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #1ed760;
+            transform: scale(1.02);
+        }
+
+        .error {
+            background-color: #e91429;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+
+        .card:hover {
+            background-color: #282828;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .card p {
+            margin: 5px 0;
+            color: var(--text-muted);
+            font-size: 14px;
+            word-break: break-word;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #333;
+            color: var(--spotify-green);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            font-size: 18px;
+            color: var(--text-muted);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>XML Web Player & Viewer</h1>
+        <p>Convert structured XML file data into a modern interface</p>
+    </header>
+
+    <div class="url-box">
+        <input type="text" id="xmlUrl" value="https://dvorld.github.io/spotify.xml" placeholder="Enter XML URL">
+        <button onclick="fetchAndParseXML()">Load Content</button>
+    </div>
+
+    <div id="errorMessage" class="error"></div>
+    <div id="loadingStatus" class="loading">Fetching and processing XML items...</div>
+    <div id="displayGrid" class="grid"></div>
+</div>
+
+<script>
+    async function fetchAndParseXML() {
+        const urlInput = document.getElementById('xmlUrl').value.trim();
+        const displayGrid = document.getElementById('displayGrid');
+        const errorMessage = document.getElementById('errorMessage');
+        const loadingStatus = document.getElementById('loadingStatus');
+
+        // Reset UI view
+        displayGrid.innerHTML = '';
+        errorMessage.style.display = 'none';
+        loadingStatus.style.display = 'block';
+
+        try {
+            // Using a CORS proxy since GitHub Pages files fetched directly via external JS can hit security blocks
+            const corsProxyUrl = `https://allorigins.win{encodeURIComponent(urlInput)}`;
+            const response = await fetch(corsProxyUrl);
+            
+            if (!response.ok) throw new Error('Network response failed.');
+            
+            const wrapperData = await response.json();
+            const xmlText = wrapperData.contents;
+
+            // Parse the string into an XML DOM Object
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+
+            // Check for parsing errors
+            const parseError = xmlDoc.getElementsByTagName("parsererror");
+            if (parseError.length > 0) {
+                throw new Error("Invalid XML formatting structure detected inside the source file.");
+            }
+
+            // Dynamically detect nodes (Checks common variants like track, item, entry, song)
+            let items = xmlDoc.getElementsByTagName("track");
+            if (items.length === 0) items = xmlDoc.getElementsByTagName("item");
+            if (items.length === 0) items = xmlDoc.getElementsByTagName("entry");
+            if (items.length === 0) items = xmlDoc.children[0]?.children || [];
+
+            if (items.length === 0) {
+                displayGrid.innerHTML = `<p style="grid-column: 1/-1; text-align: center;">No repetitive data structures or track nodes found to map.</p>`;
+                loadingStatus.style.display = 'none';
+                return;
+            }
+
+            // Loop through XML items and output cards
+            for (let i = 0; i < items.length; i++) {
+                const item = items[i];
+                if (item.nodeType !== 1) continue; // Skip text nodes
+
+                // Extract all child node details dynamically 
+                let cardHtml = `<div class="card">`;
+                const children = item.children;
+                
+                // Track prominent fields
+                let title = children[0]?.textContent || "Unnamed Item";
+                let descriptionElements = [];
+
+                for (let j = 0; j < children.length; j++) {
+                    const tagName = children[j].tagName;
+                    const textValue = children[j].textContent;
+                    
+                    if (j === 0) {
+                        cardHtml += `<h3>${textValue}</h3>`;
+                    } else if (textValue.startsWith('http://') || textValue.startsWith('https://')) {
+                        cardHtml += `<p><strong>${tagName}:</strong> <a href="${textValue}" target="_blank" style="color: #1DB954; text-decoration: none;">Open Link ↗</a></p>`;
+                    } else {
+                        cardHtml += `<p><strong>${tagName}:</strong> ${textValue}</p>`;
+                    }
+                }
+                
+                cardHtml += `<span class="tag">Node: ${item.tagName}</span>`;
+                cardHtml += `</div>`;
+                displayGrid.innerHTML += cardHtml;
+            }
+
+        } catch (error) {
+            errorMessage.textContent = `Error: ${error.message}. Please verify the URL or CORS configurations.`;
+            errorMessage.style.display = 'block';
+        } finally {
+            loadingStatus.style.display = 'none';
+        }
+    }
+
+    // Auto-load on page boot
+    window.onload = fetchAndParseXML;
+</script>
+
+</body>
+</html>

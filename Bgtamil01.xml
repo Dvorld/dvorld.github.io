@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Bhagavad Gita Chapter 1</title>
+    <link>https://archive.org/download/BhagavadGitaCh01/</link>
+    <language>en-us</language>
+    <description>Bhagavad Gita audio podcast feed.</description>
+
+    <itunes:author>Unknown</itunes:author>
+    <itunes:summary>Bhagavad Gita recitations and introductions.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+
+    <item>
+      <title>BG 01 - Gita Introduction</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_01_Gita_Introduction.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_01_Gita_Introduction</guid>
+    </item>
+
+    <item>
+      <title>BG 02 - Gita Introduction</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_02_Gita_Introduction.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_02_Gita_Introduction</guid>
+    </item>
+
+    <item>
+      <title>BG 03 - Gita Dhyaana Slokam</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_03_Gita_Dhyaana_Slokam.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_03_Gita_Dhyaana_Slokam</guid>
+    </item>
+
+    <item>
+      <title>BG 04 - Gita Dhyaana Slokam</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_04_Gita_Dhyaana_Slokam.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_04_Gita_Dhyaana_Slokam</guid>
+    </item>
+
+    <item>
+      <title>BG 05 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_05_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_05_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 06 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_06_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_06_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 07 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_07_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_07_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 08 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_08_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_08_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 09 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_09_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_09_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 10 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_10_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_10_Gita_Chapter_I</guid>
+    </item>
+
+    <item>
+      <title>BG 11 - Gita Chapter I</title>
+      <enclosure
+        url="https://archive.org/download/BhagavadGitaCh01/BG_11_Gita_Chapter_I.mp3"
+        type="audio/mpeg"/>
+      <guid>BG_11_Gita_Chapter_I</guid>
+    </item>
+
+  </channel>
+</rss>

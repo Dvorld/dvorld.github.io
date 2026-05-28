@@ -1,105 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+ xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
-  <channel>
-    <title>Bhagavad Gita Chapter 1</title>
-    <link>https://archive.org/download/BhagavadGitaCh01/</link>
-    <language>en-us</language>
-    <description>Bhagavad Gita audio podcast feed.</description>
+<channel>
 
-    <itunes:author>Unknown</itunes:author>
-    <itunes:summary>Bhagavad Gita recitations and introductions.</itunes:summary>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:type>serial</itunes:type>
+  <title>Bhagavad Gita Chapter 1</title>
+  <link>https://archive.org/details/BhagavadGitaCh01</link>
+  <language>en-us</language>
+  <description>Bhagavad Gita audio podcast feed.</description>
 
-    <item>
-      <title>BG 01 - Gita Introduction</title>
-      <itunes:episode>1</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:09:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_01_Gita_Introduction.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_01_Gita_Introduction</guid>
-    </item>
+  <lastBuildDate>Thu, 28 May 2026 00:00:00 GMT</lastBuildDate>
+  <generator>custom-rss-generator</generator>
 
-    <item>
-      <title>BG 02 - Gita Introduction</title>
-      <itunes:episode>2</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:10:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_02_Gita_Introduction.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_02_Gita_Introduction</guid>
-    </item>
+  <itunes:author>Unknown</itunes:author>
 
-    <item>
-      <title>BG 03 - Gita Dhyaana Slokam</title>
-      <itunes:episode>3</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:10:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_03_Gita_Dhyaana_Slokam.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_03_Gita_Dhyaana_Slokam</guid>
-    </item>
+  <itunes:owner>
+    <itunes:name>Unknown</itunes:name>
+    <itunes:email>unknown@example.com</itunes:email>
+  </itunes:owner>
 
-    <item>
-      <title>BG 04 - Gita Dhyaana Slokam</title>
-      <itunes:episode>4</itunes:episode>
-      <pubDate>Thu, 10 Aug 2010 00:47:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_04_Gita_Dhyaana_Slokam.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_04_Gita_Dhyaana_Slokam</guid>
-    </item>
+  <itunes:summary>Bhagavad Gita recitations and introductions.</itunes:summary>
+  <itunes:explicit>false</itunes:explicit>
 
-    <item>
-      <title>BG 05 - Gita Chapter I</title>
-      <itunes:episode>5</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:13:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_05_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_05_Gita_Chapter_I</guid>
-    </item>
+  <itunes:image href="https://archive.org/download/BhagavadGitaCh01/__ia_thumb.jpg"/>
 
-    <item>
-      <title>BG 06 - Gita Chapter I</title>
-      <itunes:episode>6</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:14:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_06_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_06_Gita_Chapter_I</guid>
-    </item>
+  <itunes:type>serial</itunes:type>
 
-    <item>
-      <title>BG 07 - Gita Chapter I</title>
-      <itunes:episode>7</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:15:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_07_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_07_Gita_Chapter_I</guid>
-    </item>
+  <!-- EPISODE 1 -->
+  <item>
+    <title>BG 01 - Gita Introduction</title>
+    <itunes:episode>1</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:09:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_01_Gita_Introduction.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg01</guid>
+  </item>
 
-    <item>
-      <title>BG 08 - Gita Chapter I</title>
-      <itunes:episode>8</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:16:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_08_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_08_Gita_Chapter_I</guid>
-    </item>
+  <!-- EPISODE 2 -->
+  <item>
+    <title>BG 02 - Gita Introduction</title>
+    <itunes:episode>2</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:10:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_02_Gita_Introduction.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg02</guid>
+  </item>
 
-    <item>
-      <title>BG 09 - Gita Chapter I</title>
-      <itunes:episode>9</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:18:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_09_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_09_Gita_Chapter_I</guid>
-    </item>
+  <!-- EPISODE 3 -->
+  <item>
+    <title>BG 03 - Dhyaana Slokam</title>
+    <itunes:episode>3</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:10:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_03_Gita_Dhyaana_Slokam.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg03</guid>
+  </item>
 
-    <item>
-      <title>BG 10 - Gita Chapter I</title>
-      <itunes:episode>10</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:19:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_10_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_10_Gita_Chapter_I</guid>
-    </item>
+  <!-- EPISODE 4 -->
+  <item>
+    <title>BG 04 - Dhyaana Slokam</title>
+    <itunes:episode>4</itunes:episode>
+    <pubDate>Thu, 10 Aug 2010 00:47:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_04_Gita_Dhyaana_Slokam.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg04</guid>
+  </item>
 
-    <item>
-      <title>BG 11 - Gita Chapter I</title>
-      <itunes:episode>11</itunes:episode>
-      <pubDate>Wed, 09 Aug 2010 19:20:00 GMT</pubDate>
-      <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_11_Gita_Chapter_I.mp3" type="audio/mpeg"/>
-      <guid isPermaLink="false">BG_11_Gita_Chapter_I</guid>
-    </item>
+  <!-- EPISODE 5 -->
+  <item>
+    <title>BG 05 - Chapter I</title>
+    <itunes:episode>5</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:13:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_05_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg05</guid>
+  </item>
 
-  </channel>
+  <!-- EPISODE 6 -->
+  <item>
+    <title>BG 06 - Chapter I</title>
+    <itunes:episode>6</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:14:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_06_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg06</guid>
+  </item>
+
+  <!-- EPISODE 7 -->
+  <item>
+    <title>BG 07 - Chapter I</title>
+    <itunes:episode>7</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:15:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_07_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg07</guid>
+  </item>
+
+  <!-- EPISODE 8 -->
+  <item>
+    <title>BG 08 - Chapter I</title>
+    <itunes:episode>8</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:16:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_08_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg08</guid>
+  </item>
+
+  <!-- EPISODE 9 -->
+  <item>
+    <title>BG 09 - Chapter I</title>
+    <itunes:episode>9</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:18:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_09_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg09</guid>
+  </item>
+
+  <!-- EPISODE 10 -->
+  <item>
+    <title>BG 10 - Chapter I</title>
+    <itunes:episode>10</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:19:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_10_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg10</guid>
+  </item>
+
+  <!-- EPISODE 11 -->
+  <item>
+    <title>BG 11 - Chapter I</title>
+    <itunes:episode>11</itunes:episode>
+    <pubDate>Wed, 09 Aug 2010 19:20:00 GMT</pubDate>
+    <enclosure url="https://archive.org/download/BhagavadGitaCh01/BG_11_Gita_Chapter_I.mp3" type="audio/mpeg"/>
+    <guid isPermaLink="false">bg11</guid>
+  </item>
+
+</channel>
 </rss>
